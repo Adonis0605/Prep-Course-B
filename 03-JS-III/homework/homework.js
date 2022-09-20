@@ -8,12 +8,20 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
+  var tarea =[1,2,3,4,5,6,7,8,9,10]
+  var suma = tarea.reduce(function(acc,elemento){
+    return acc+elemento;});
+    return suma;
+  
 }
 
 function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
+  
+
+
 }
 
 function elevaAlCuadrado(array){
